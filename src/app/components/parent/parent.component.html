@@ -1,0 +1,5 @@
+Type some text
+<input type="text" [(ngModel)]="inputValue">
+<br>
+<br>
+<app-child [text]="inputValue" (textCleared)="clearInput()"></app-child>
